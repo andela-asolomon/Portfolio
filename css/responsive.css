@@ -39,10 +39,14 @@
 		padding-top: 100px;
 	}
 
-	footer .up {
+	#contact #post {
 		position: relative;
-		/*right: 1000px;*/
-		bottom: 25px;
+		right: -25px;
+	}
+
+	#up{
+		position: relative;
+		top: -10px;
 	}
 
 	footer a {
@@ -101,13 +105,34 @@
 		right: 100px;
 	}
 
+	#post {
+		position: relative;
+		right: 200px;
+	}
+
 	#primary {
 		width: 50%;
 		float: left;
 	}
 
+	#primary {
+		width: 50%;
+		position: relative;
+		right: -20px;
+		top: 20px;
+	}
+
 	#secondary {
-		text-align: right;
+		width: 40%;
+		position: relative;
+		left: 80px;
+		top: 20px;
+	}
+
+	#up {
+		position: relative;
+		top: -25px;
+		right: -500px;
 	}
 
 	#about {

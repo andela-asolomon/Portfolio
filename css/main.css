@@ -85,7 +85,7 @@ footer {
   border-top: 5px solid #599a68;
 }
 
-footer .up {
+footer #up {
   color: #ccc;
 }
 
@@ -299,4 +299,8 @@ h3 {
 
 .clear {
   clear:both; 
+}
+
+#secondary {
+  text-align: center;
 }

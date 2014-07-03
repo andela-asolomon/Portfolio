@@ -44,9 +44,10 @@
 		right: -25px;
 	}
 
-	#up{
+	footer #up{
 		position: relative;
-		top: -10px;
+		top: -25px;
+		right: 3000px;
 	}
 
 	footer a {
@@ -100,14 +101,9 @@
 		padding-bottom: 250px;
 	}
 
-	#contact h1{
+	#contact #post {
 		position: relative;
-		right: 100px;
-	}
-
-	#post {
-		position: relative;
-		right: 200px;
+		right: 90px;
 	}
 
 	#primary {
@@ -124,15 +120,16 @@
 
 	#secondary {
 		width: 40%;
+		float: right;
 		position: relative;
 		left: 80px;
 		top: 20px;
 	}
 
-	#up {
+	footer #up {
 		position: relative;
 		top: -25px;
-		right: -500px;
+		right: -450px;
 	}
 
 	#about {

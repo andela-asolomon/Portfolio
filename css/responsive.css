@@ -1,121 +1,120 @@
 @media screen and (min-width: 480px) {
-	/* TWO COLUMN LAYOUT */
-	#primary {
-		width: 50%;
-		float: left;
-	}
-
-	#secondary {
-		width: 40%;
-		float: right;
-	}
-
-	/* 3 * 5 = 15 
+    /* TWO COLUMN LAYOUT */
+    
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+    /* 3 * 5 = 15 
 		100% - 15% = 85%
 		85/3 = 28.33333333333
 	*/
-
-	/* Page: Portfolio; */
-
-	#gallery li {
-		width: 28.3333%
-	}
-
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}
-
-	/* Page: About */
-	.profile-photo {
-		float: left;
-		margin: 0 5% 80px 0;
-	}
-
-	#about {
-		padding-top: 250px;
-	}
-
-	#contact {
-		padding-top: 100px;
-	}
-
-	footer .up {
-		position: relative;
-		/*right: 1000px;*/
-		bottom: 25px;
-	}
-
-	footer a {
-		position: relative;
-		top: -10px;
-	}
+    /* Page: Portfolio; */
+    
+    #gallery li {
+        width: 28.3333%
+    }
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+    /* Page: About */
+    
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+    #about {
+        padding-top: 250px;
+    }
+    #contact {
+        padding-top: 100px;
+    }
+    #contact #post {
+        position: relative;
+        right: -25px;
+    }
+    footer #up {
+        position: relative;
+        top: -25px;
+        right: 3000px;
+    }
+    footer a {
+        position: relative;
+        top: -10px;
+    }
 }
-
 @media screen and (min-width: 660px) {
-
-	/* Page: Header */
-
-	nav {
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%;
-		text-align: right;
-		width: 45%;
-	}
-
-	#logo {
-		float: left;
-		margin-left: 5%;
-		text-align: left;
-		width: 45%;
-	}
-
-	h1 {
-		font-size: 2.5em
-	}
-
-	h2 {
-		font-size: 0.825em;
-		margin-bottom: 20px;
-	}
-
-	header {
-		 border-bottom: 5px solid #599a68;
-		 margin-bottom: 60px;
-	}
-
-	footer .up {
-		position: relative;
-		right: -500px;
-		top: -25px;
-	}
-
-	#contact {
-		padding-top: 50px;
-		padding-bottom: 250px;
-	}
-
-	#contact h1{
-		position: relative;
-		right: 100px;
-	}
-
-	#primary {
-		width: 50%;
-		float: left;
-	}
-
-	#secondary {
-		text-align: right;
-	}
-
-	#about {
-		padding-top: 300px;
-	}
-
-	.qitem {
-		position: relative;
-		right: -80px;
-	}
+    /* Page: Header */
+    
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+    }
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    h1 {
+        font-size: 2.5em
+    }
+    h2 {
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+    header {
+        border-bottom: 5px solid #599a68;
+        margin-bottom: 60px;
+    }
+    footer .up {
+        position: relative;
+        right: -500px;
+        top: -25px;
+    }
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 250px;
+    }
+    #contact #post {
+        position: relative;
+        right: 90px;
+    }
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    #primary {
+        width: 50%;
+        position: relative;
+        right: -20px;
+        top: 20px;
+    }
+    #secondary {
+        width: 40%;
+        float: right;
+        position: relative;
+        left: 80px;
+        top: 20px;
+    }
+    footer #up {
+        position: relative;
+        top: -25px;
+        right: -450px;
+    }
+    #about {
+        padding-top: 300px;
+    }
+    .qitem {
+        position: relative;
+        right: -80px;
+    }
 }
